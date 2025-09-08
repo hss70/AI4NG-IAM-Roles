@@ -1,0 +1,20 @@
+{
+  "Parameters": {
+    "ProjectName": "AI4NG"
+  },
+  "Tags": {
+    "Project": "AI4NG",
+    "Environment": "dev",
+    "ManagedBy": "CodePipeline"
+  },
+  "StackPolicy": {
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": "Update:*",
+        "Resource": "*"
+      }
+    ]
+  }
+}
